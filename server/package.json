@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node --watch --no-deprecation --env-file=.env app.js",
     "setup": "node config/setup.js",
-    "build": "node build.js",
+    "build": "node build.js && npm install",
     "start": "node app.js"
   },
   "keywords": [],
