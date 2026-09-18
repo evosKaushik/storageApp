@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "node --watch --no-deprecation --env-file=.env app.js",
-    "setup": "node --env-file=.env config/setup.js",
-    "build": "build build.js"
+    "setup": "node config/setup.js",
+    "build": "node build.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
